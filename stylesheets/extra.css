@@ -1,0 +1,28 @@
+[data-md-color-scheme = "slate"] {
+    --md-default-bg-color: #333; 
+    --md-default-bg-color--light: #444;
+    --md-default-fg-color: #fff;
+    --md-default-fg-color--light: #999;
+    --md-typeset-a-color: #0136ff;
+}
+
+.md-header {
+  background-color: #0136ff;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.md-typeset {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.md-typeset p {
+  margin-bottom: 10px;
+}

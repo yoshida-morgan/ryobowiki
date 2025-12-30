@@ -1,19 +1,23 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="ja" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
+        <meta name="author" content="yoshida morgan">
+      
+      
+        <link rel="canonical" href="https://yoshida-morgan.github.io/ryobowiki/guideline/">
       
       
         <link rel="prev" href="..">
       
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
     
     
@@ -24,7 +28,16 @@
     
       <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
       
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M8.17%202.76A10.1%2010.1%200%200%201%2012%202c1.31%200%202.61.26%203.83.76%201.21.5%202.31%201.24%203.24%202.17s1.67%202.03%202.17%203.24c.5%201.22.76%202.52.76%203.83%200%202.65-1.05%205.2-2.93%207.07A9.97%209.97%200%200%201%2012%2022a10.1%2010.1%200%200%201-3.83-.76%2010%2010%200%200%201-3.24-2.17A9.97%209.97%200%200%201%202%2012c0-2.65%201.05-5.2%202.93-7.07.93-.93%202.03-1.67%203.24-2.17M10%2016h1v-2h-1c-.33%200-2-.1-2-2%200-1.83%201.54-2%202-2h1V8h-1c-1.61%200-4%201.07-4%204%200%202.94%202.39%204%204%204m3%200h1c1.61%200%204-1.06%204-4%200-2.93-2.39-4-4-4h-1v2h1c.33%200%202%20.1%202%202%200%201.83-1.54%202-2%202h-1zm-4-3h6v-2H9z%22/%3E%3C/svg%3E');}</style>
 
 
     
@@ -41,6 +54,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -51,7 +66,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -61,7 +81,7 @@
       
         
         <a href="#_1" class="md-skip">
-          Skip to content
+          コンテンツにスキップ
         </a>
       
     </div>
@@ -75,11 +95,10 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
     <a href=".." title="ryobowiki" class="md-header__button md-logo" aria-label="ryobowiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -103,8 +122,8 @@
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -118,16 +137,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="検索">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -138,7 +157,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            検索を初期化
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -172,12 +191,11 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="ryobowiki" class="md-nav__button md-logo" aria-label="ryobowiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../assets/logo.png" alt="logo">
 
     </a>
     ryobowiki
@@ -197,7 +215,7 @@
   
   
   <span class="md-ellipsis">
-    Welcome to MkDocs
+    ホーム
     
   </span>
   
@@ -219,6 +237,8 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+      
+        
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
@@ -248,68 +268,42 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目次">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目次
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      編集する前に
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      具体的な書き方
+      はじめに
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="具体的な書き方">
+    <nav class="md-nav" aria-label="はじめに">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#markdown" class="md-nav__link">
     <span class="md-ellipsis">
-      文体
+      Markdownで書ける
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#markdown_1" class="md-nav__link">
     <span class="md-ellipsis">
-      書かないで
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="書かないで">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      マイナスなこと
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      編集者の憶測・考察
+      Markdownでは書けない
     </span>
   </a>
   
@@ -319,9 +313,37 @@
     </nav>
   
 </li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      具体的な書き方
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="具体的な書き方">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      文体
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      書かないで
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       書いて
     </span>
@@ -331,7 +353,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       情報の出典
     </span>
@@ -345,16 +367,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    <span class="md-ellipsis">
-      記法
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       その他
     </span>
@@ -388,68 +401,42 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目次">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目次
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      編集する前に
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      具体的な書き方
+      はじめに
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="具体的な書き方">
+    <nav class="md-nav" aria-label="はじめに">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#markdown" class="md-nav__link">
     <span class="md-ellipsis">
-      文体
+      Markdownで書ける
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#markdown_1" class="md-nav__link">
     <span class="md-ellipsis">
-      書かないで
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="書かないで">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      マイナスなこと
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      編集者の憶測・考察
+      Markdownでは書けない
     </span>
   </a>
   
@@ -459,9 +446,37 @@
     </nav>
   
 </li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      具体的な書き方
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="具体的な書き方">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      文体
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      書かないで
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       書いて
     </span>
@@ -471,7 +486,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       情報の出典
     </span>
@@ -485,16 +500,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    <span class="md-ellipsis">
-      記法
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       その他
     </span>
@@ -523,40 +529,55 @@
 
 
 
-  <h1>編集のしかた・ガイドライン</h1>
-
-<h2 id="_1">編集する前に</h2>
-<ul>
-<li>編集は誰でも、ログインせずに行えます。</li>
-<li>これはー民のみなさんの民度を信用してのことで、どんどん情報を増やしていきたいという思いからです。一度でも荒らし行為が確認された場合は、管理人による承認のあった人のみ編集可能としますが、いちいち許可申請→管理人が許可の段階を踏まないといけなくなるのは嫌なので、なにとぞよろしくお願いします。</li>
-<li>ページの追加・削除は行えません。既存のページの編集をお願いしています。~~設定がよくわかっていないので出来てしまうかも知れませんが、その際は管理人にこっそり教えて下さい。~~</li>
-<li>画像の追加も行えません。どうしても追加したい画像がある場合は、① なにを、② どこに、③ どのようにを管理人にお伝え下さい。~~設定がよくわかってないので以下略。~~</li>
-</ul>
-<h2 id="_2">具体的な書き方</h2>
-<h3 id="_3">文体</h3>
+<h1 id="_1">編集のしかた・ガイドライン</h1>
+<h2 id="_2">はじめに</h2>
+<p>このWikiは、ページの追加・削除・編集は管理人しかできません。これは吉田モルガンの怠慢とかではなく、使用しているWikiのエンジンの仕様です。</p>
+<p>ページを追加・編集したい場合は、以下を参照してください。</p>
+<h3 id="markdown">Markdownで書ける</h3>
+<p>Markdownとは、太字や下線を記号を用いて表現する記法です。たとえば、<strong>太字</strong>は、<code>**太字**</code>と書きます。そこまで難しくないです。Markdownを扱える（か、扱う気がある）人は、以下の手順を踏むことでページを追加・編集できます。</p>
+<ol>
+<li>吉田モルガンに作りたいページについて連絡する</li>
+<li>Markdown方式で作成する</li>
+<li>吉田モルガンにMarkdownファイルを送る</li>
+</ol>
+<p>多少微調整を行ったうえでページが追加されます。</p>
+<h3 id="markdown_1">Markdownでは書けない</h3>
+<p>Markdownが難しい場合は、プレーンテキスト（普通の文章）を吉田モルガンに送りつけてください。こちらでMarkdownに修整のうえ、ページが追加されます。</p>
+<h2 id="_3">具体的な書き方</h2>
+<h3 id="_4">文体</h3>
 <p>常体（だ・である）で記述してください。</p>
-<h3 id="_4">書かないで</h3>
-<h4 id="_5">マイナスなこと</h4>
+<h3 id="_5">書かないで</h3>
+<ul>
+<li>
+<p>マイナスなこと</p>
 <ul>
 <li>過去の炎上、他人とのトラブルなど。</li>
 </ul>
-<h4 id="_6">編集者の憶測・考察</h4>
+</li>
+<li>
+<p>編集者の憶測・考察</p>
 <ul>
 <li>あくまでWikiです。事実のみを書いてください。</li>
 </ul>
-<h3 id="_7">書いて</h3>
-<h4 id="_8">情報の出典</h4>
+</li>
+</ul>
+<h3 id="_6">書いて</h3>
+<h4 id="_7">情報の出典</h4>
 <ul>
 <li>出典のない情報については、削除を行う可能性があります。</li>
-<li>明らかに公開されている情報は必要ありません。</li>
-<li>例…誕生日、年齢</li>
-<li>URLでなく、配信のタイトルとタイムスタンプで大丈夫です。</li>
 </ul>
-<h3 id="_9">記法</h3>
-<p>Markdown方式を採用しています。このページの1番下に記法をまとめています。その他の書き方はできません。</p>
-<h3 id="_10">その他</h3>
+<div class="annotate">
 <ul>
-<li>目次は使えません。</li>
+<li>注釈 (1) 機能を用いて、配信のタイムスタンプつきURLを記述してください。</li>
+</ul>
+</div>
+<ol>
+<li>これのこと</li>
+</ol>
+<h3 id="_8">その他</h3>
+<ul>
+<li>目次は見出しに勝手につくので特に設定はいりません。</li>
+<li>仮に間違えてしまっていてもこちらで直しておくので、そこまで気にしないでください。</li>
 </ul>
 
 
@@ -586,6 +607,10 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
+    <div class="md-copyright__highlight">
+      © 2026 Yoshida-Morgan
+    </div>
+  
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
@@ -606,7 +631,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
