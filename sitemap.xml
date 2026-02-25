@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://yoshida-morgan.github.io/ryobowiki/</loc>
-         <lastmod>2026-01-24</lastmod>
+         <lastmod>2026-02-25</lastmod>
     </url>
     <url>
-         <loc>https://yoshida-morgan.github.io/ryobowiki/fanart/</loc>
-         <lastmod>2026-01-24</lastmod>
+         <loc>https://yoshida-morgan.github.io/ryobowiki/files/template/</loc>
+         <lastmod>2026-02-25</lastmod>
     </url>
     <url>
-         <loc>https://yoshida-morgan.github.io/ryobowiki/guideline/</loc>
-         <lastmod>2026-01-24</lastmod>
+         <loc>https://yoshida-morgan.github.io/ryobowiki/other/fanart/</loc>
+         <lastmod>2026-02-25</lastmod>
+    </url>
+    <url>
+         <loc>https://yoshida-morgan.github.io/ryobowiki/other/guideline/</loc>
+         <lastmod>2026-02-25</lastmod>
+    </url>
+    <url>
+         <loc>https://yoshida-morgan.github.io/ryobowiki/person/ryobow/</loc>
+         <lastmod>2026-02-25</lastmod>
     </url>
 </urlset>
